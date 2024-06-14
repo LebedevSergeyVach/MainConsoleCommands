@@ -1,3 +1,19 @@
+# Main Console Commands
+### Набор основных консольных команд с описанием для работы с: git, ssh, директории, репозитории.
+
+---
+
+### [Лебедев Сергей Вячеславович](https://github.com/LebedevSergeyVach) – Руководитель README.md
+
+---
+
+### • [Основные команды для работы с Git](https://github.com/LebedevSergeyVach/MainConsoleCommands?tab=readme-ov-file#основные-команды-для-работы-с-git)
+### • [Основные команды для работы с директориями](https://github.com/LebedevSergeyVach/MainConsoleCommands?tab=readme-ov-file#основные-команды-для-работы-с-директориями)
+### • [Основные команды для работы с SSH](https://github.com/LebedevSergeyVach/MainConsoleCommands?tab=readme-ov-file#основные-команды-для-работы-с-ssh)
+### • [Создание нового репозитория на GitHub](https://github.com/LebedevSergeyVach/MainConsoleCommands?tab=readme-ov-file#создание-нового-репозитория-на-github)
+
+---
+
 # Основные команды для работы с Git
 
 | Команда                              | Описание                                                                                        |
@@ -105,6 +121,7 @@ git commit -m "[message]"
 ```commandline
 git push -u origin [branch name]
 ```
+
 ---
 
-### [Лебедев Сергей Вячеславович](https://github.com/LebedevSergeyVach) – Руководитель README.md
+[README.md](README.md)
