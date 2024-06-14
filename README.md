@@ -117,7 +117,7 @@ git commit -m "[message]"
 ```
 
 ### 7. Отправляем проект на удаленный репозиторий
-#### [branch name] - - название вети проекта, такое же как в команде git branch -M [branch name]
+#### [branch name] - название вети проекта, такое же как в команде git branch -M [branch name]
 ```commandline
 git push -u origin [branch name]
 ```
