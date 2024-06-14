@@ -61,10 +61,44 @@
 
 ---
 
+# Создание нового репозитория на GitHub
+
+### Инизилизируем git в корне прокта
+```commandline
 git init
+```
 
-Создать репозиторий с таким же названием
+### Создаем новый репозиторий На [GitHub](github.com/new)
+#### Название удаленного репозитория как у проекта
+```commandline
+github.com/new
+```
 
+### Связываем проект с удаленным репозиторием на GitHub
+#### [URL repository SSH] - сслыка на удаленный репозиторий (пример: git@github.com:LebedevSergeyVach/MainConsoleCommands.git)
+```commandline
+git remote add origin [URL repository]
+```
 
+### Даем имя текущей ветки на GitHub
+#### [branch name] - название вети проекта (пример: main)
+```commandline
+git branch -M [branch name]
+```
 
+### Добавляем все фалйы проекта
+```commandline
+git add .
+```
 
+### Создаем первый коммит проекта
+#### "[message]" - текст коммит-а (пример: Initial commit)
+```commandline
+git commit -m "[message]"
+```
+
+### Отправляем проект на удаленный репозиторий
+#### [branch name] - - название вети проекта, такое же как в команде git branch -M [branch name]
+```commandline
+git push -u origin [branch name]
+```
