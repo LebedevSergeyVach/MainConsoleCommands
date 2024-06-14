@@ -105,7 +105,7 @@ git remote add origin [URL repository]
 git branch -M [branch name]
 ```
 
-### 5. Добавляем все фалйы проекта
+### 5. Добавляем все файлы проекта
 ```commandline
 git add .
 ```
