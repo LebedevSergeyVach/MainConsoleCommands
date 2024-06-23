@@ -38,6 +38,8 @@
 | `git reset [file]`                   | Убирает файл из индекса, но оставляет изменения в рабочем каталоге.                             |
 | `git stash`                          | Сохраняет текущие изменения в стеш, чтобы можно было переключиться на другую ветку без коммита. |
 
+#### [ВВЕРХ](#оглавление)
+
 ---
 
 <a name="основные-команды-для-работы-с-директориями"></a>
@@ -63,6 +65,8 @@
 | `chmod [permissions] [file]`       | Изменяет права доступа к файлу или директории.                             | `chmod 755 script.sh`                |
 | `chown [user]:[group] [file]`      | Изменяет владельца и группу файла или директории.                          | `chown user:group filename.txt`      |
 
+#### [ВВЕРХ](#оглавление)
+
 ---
 
 <a name="основные-команды-для-работы-с-ssh"></a>
@@ -80,6 +84,8 @@
 | `ssh [user]@[host] -L [local_port]:[remote_host]:[remote_port]` | Создает туннель SSH для перенаправления портов.                  | `ssh user@example.com -L 8080:localhost:80`             |
 | `ssh [user]@[host] -R [remote_port]:[local_host]:[local_port]`  | Создает туннель SSH для обратного перенаправления портов.        | `ssh user@example.com -R 2222:localhost:22`             |
 | `ssh [user]@[host] -D [port]`                                   | Создает SOCKS5 прокси через SSH.                                 | `ssh user@example.com -D 1080`                          |
+
+#### [ВВЕРХ](#оглавление)
 
 ---
 
@@ -126,7 +132,8 @@ git commit -m "[message]"
 git push -u origin [branch name]
 ```
 
+#### [ВВЕРХ](#оглавление)
+
 ---
 
-# [ВВЕРХ](#оглавление)
-#### [README.md](README.md)
+#### [README.md](README.md) #### [ВВЕРХ](#оглавление)
