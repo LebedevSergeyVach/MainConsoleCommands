@@ -1,14 +1,14 @@
 #!/bin/bash
 # Bash script run locoally server an Django application
 
-# Проверяем, передан ли флаг -f или --first
+# Проверяем, передан ли флаг -s или --serphantom
 if [[ "$1" == "-s" || "$1" == "--serphantom" ]]; then
     # Переходим в директорию первого проекта
     cd ~/PycharmProjects/SerphantomApplication/ || exit
     # Запускаем сервер с помощью poetry
     poetry run python advertisements/manage.py runserver
 
-# Проверяем, передан ли флаг -s или --second
+# Проверяем, передан ли флаг -w или --website
 elif [[ "$1" == "-w" || "$1" == "--website" ]]; then
     # Переходим в директорию второго проекта
     cd ~/PycharmProjects/WebsiteProductPlacement/ || exit
