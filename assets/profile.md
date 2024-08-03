@@ -1,5 +1,5 @@
 
-<details close="close">
+<details open="open">
     <summary><h2>🚀 Full stack of technologies</h2></summary>
     <div align="left">
         <strong>Operating system: </strong>
