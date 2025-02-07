@@ -107,7 +107,7 @@
 git init
 ```
 
-### 2. Создаем новый репозиторий На [GitHub](github.com/new)
+### 2. Создаем новый репозиторий на [GitHub](https://github.com/new)
 #### Название удаленного репозитория как у проекта
 ```commandline
 github.com/new
