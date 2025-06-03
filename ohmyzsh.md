@@ -153,7 +153,7 @@ plugins=(
    colored-man-pages
    docker
    history
-   udo
+   sudo
    extract
    web-search
    pip
